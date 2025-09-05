@@ -78,12 +78,12 @@ const PokeCart = () => {
             )
         );
     };
-
+    
     const checkout = () => {
         Swal.fire({
             title: 'Proceed to Checkout?',
             text: 'Are you sure you want to place this order?',
-            imageUrl: '/pokemons.png', // <-- your custom image here
+            imageUrl: import.meta.env.BASE_URL+'/pokemons.png', // <-- your custom image here
             imageWidth: 100,
             imageHeight: 100,
             imageAlt: 'Pokemon',

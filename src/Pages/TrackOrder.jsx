@@ -95,7 +95,7 @@ const TrackOrder = () => {
                             }`}
                         >
                             <img
-                                src={`${import.meta.env.BASE_URL + image}`}
+                                src={`${import.meta.env.BASE_URL + step.image}`}
                                 alt={step.title}
                                 className="w-12 h-12 object-contain"
                             />
